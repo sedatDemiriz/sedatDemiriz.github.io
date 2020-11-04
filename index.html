@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+    </head>
+
+    <body>
+        <div id="nav-container">
+            <div id="logo-container">
+                <img class="logo noselect" src="/img/website-logo.png">
+                <h3 class="logo-name noselect">Sedat Demiriz</h3>
+            </div>
+            <ul>
+                <li><a class="nav-link noselect" href=#profile-container>About</a></li>
+                <li><a class="nav-link noselect" href=#resume-container>experience</a></li>
+                <li><a class="nav-link noselect" href=#projects-container>Projects</a></li>
+                <li><a class="accent noselect" href=#contacts-container>Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="profile-container" class="noselect">
+            <h3 class="profile-heading">Welcome</h3>
+            <div id="profile-subcontainer">
+                <img class="profile-pic" src="/img/headshot_2.png" >
+                <p class="profile-desc">
+                    Hi, nice to meet you and thank you for checking out my website!
+                    I am a programmer, with an interest in bioinformatics.
+                    Please scroll down to check out my experience and how I may fit
+                    into your team.
+                </p>
+            </div>
+            <a class="arrow-link" href="#resume-container">V</a>
+        </div>
+
+        <div id="resume-container" class="noselect">
+            <h3 class="resume-heading">Resume</h3>
+            <div class="resume-subcontainer">
+                <h2 class="resume-title">Biosensor R&D Co-op Programmer</h2>
+
+                <p class="resume-text">Automated the previously manual sensor data processing routine using R</p>
+                <p class="resume-text">Routinely collected hundreds of biosensor voltage and current data points</p>
+                <p class="resume-text">Summarised sensor performance data into 5 descriptive metrics</p>
+                <p class="resume-text">Created efficient workflows by collaborating with coworkers, supervisors</p>
+
+                <h3 class="resume-date">CiBER Lab SFU</h3>
+                <h3 class="resume-date">May - Sep 2018</h3>
+            </div>
+            <div class="resume-subcontainer">
+                <h2 class="resume-title">Genetics Lab Co-op Student</h2>
+
+                <p class="resume-text">Performed weekly PCR, DNA and RNA isolations and sample QC procedures</p>
+                <p class="resume-text">Worked in cell culture laboratory to grow five varieties of tumor cell lines</p>
+                <p class="resume-text">Took on the responsibility to lead and supervise four other co-op students</p>
+                <p class="resume-text">Ran a multitude of tests and experiments alongside staff and graduate students</p>
+
+                <h3 class="resume-date">Istanbul University Genetics Institute</h3>
+                <h3 class="resume-date">May - Aug 2016</h3>
+            </div>
+            <div class="resume-subcontainer">
+                <h2 class="resume-title">BSc, Joint Major in Computing Science and Molecular Biology</h2>
+
+                <p class="resume-text">Computing Science: Data Science, Machine Learning, Databases, Algorithms</p>
+                <p class="resume-text">Molecular Biology: Bioinformatics, Human Genomics, and Applied Wet Labs</p>
+                <p class="resume-text">Statistics: Exploratory Data Analysis, Experiment Design and Analysis</p>
+
+                <h3 class="resume-date">Simon Fraser University</h3>
+                <h3 class="resume-date">Sept 2015 - May 2020</h3>
+            </div>
+        </div>
+
+        <div id="projects-container" class="noselect">
+            <h3 class="projects-heading noselect">Select Projects</h3>
+            <div id="projects-subcontainer">
+                <div class="projects-panel">
+                    <img class="panel-image" src="/img/ML-project-image.jpg">
+                    <div class="panel-info">
+                        <h3 class="panel-title">ML-Based Fall Detection Project</h3>
+                        <p class="panel-text">Implemented 5 keystone machine learning classifiers to detect falls</p>
+                        <p class="panel-text">Collected 25 accelerometer data samples from four separate actions</p>
+                        <p class="panel-text">Implemented four shell scripts to automate repetitive tasks on data files</p>
+                        <p class="panel-text">Managed GitHub repository for team of three to ensure project consistency</p>
+                    </div>
+                </div>
+                <div class="projects-panel">
+                    <img class="panel-image" src="/img/Iapi-image.jpg">
+                    <div class="panel-info">
+                        <h3 class="panel-title">Customizable Bingo Web App</h3>
+                        <p class="panel-text">Implemented a responsive web application using HTML, CSS and ReactJS</p>
+                        <p class="panel-text">Implemented essential features such seeded randomization</p>
+                        <p class="panel-text">Plans to implement Django and SQL backend for robust data fetching</p>
+                    </div>
+                </div>
+                <div class="projects-panel">
+                    <img class="panel-image" src="/img/web-app-image.png">
+                    <div class="panel-info">
+                        <h3 class="panel-title">Web Platform API Score Tracker</h3>
+                        <p class="panel-text">Implemented automated user score extraction and tracking from chat logs</p>
+                        <p class="panel-text">Worked with API wrappers to extract and process data in real time</p>
+                        <p class="panel-text">Ongoing implementation of SQL relational database for persistent data storage</p>
+                    </div>
+                </div>
+            </div>
+            <p class="projects-footnote">... as well as this website, and more :)</p>
+        </div>
+
+        <div id="contacts-container" class="noselect">
+            <h3 class="contacts-heading noselect">Let me know what you think:</h3>
+            <span class="contact-panel">
+                <img class="contact-icon" src="/img/email-open-multiple-outline.png">
+                <a class="contact-text" href="mailto:sedatdemiriz97@gmail.com">sedatdemiriz97@gmail.com</a>
+            </span>
+            <span class="contact-panel">
+                <img class="contact-icon" src="/img/github.png">
+                <a class="contact-text" href="https://github.com/sedatDemiriz">github.com/sedatDemiriz</a>
+            </span>            
+            <span class="contact-panel">
+                <img class="contact-icon" src="/img/phone.png">
+                <a class="contact-text" href="#contacts-container">778-866-9440</a>
+            </span>
+            <p class="footer">Made by Sedat Demiriz, 2020 
+                            <br>Made using the Nord Theme and Material Design principles</p>
+        </div>
+    </body>
+</html>
