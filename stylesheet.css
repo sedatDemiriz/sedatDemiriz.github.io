@@ -275,7 +275,7 @@ div#skills-container {
 
 h3.skills-heading {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--polar-1);
+    /* background-color: var(--polar-1); */
     color: var(--frost-2);
     text-align: center;
     font-size: 3em;
@@ -287,29 +287,33 @@ h3.skills-heading {
 }
 
 .skills-subcontainer {
-    width: 40%;
+    width: 60%;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
 }
 
-.skills-type {
-    
+.skills-category {
+    color: var(--aurora-3);
+    font-size: 1.5em;
+    /* background-color: red; */
+    width: 10em;
 }
 
 .skills-unit {
+    width: 8em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .skills-image {
-    height: 2em;
-    width: 2em;
+    height: 6em;
+    width: 6em;
 }
 
 .skills-text {
-
+    color: var(--frost-3);
 }
 
 div#projects-container {
